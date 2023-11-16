@@ -1,5 +1,5 @@
-<img width="100%" alt="chatting" src="https://github.com/HyeyonJ/room-of-GUZZI/assets/113879120/6acbc2ff-2441-4308-8e40-9d2648e80929.gif">
-
+<img width="100%" alt="chatting" src="https://github.com/HyeyonJ/IT-Da-Shopping/assets/113879120/526da0ec-38d0-4f1b-a954-d41142077531.gif">
+![IT-Da shop](https://github.com/HyeyonJ/IT-Da-Shopping/assets/113879120/526da0ec-38d0-4f1b-a954-d41142077531)
 <div align="center">
   
 ## GUZZI ROOM
