@@ -51,10 +51,8 @@
 
 ## `3. 설계 및 아키텍처`
 
-<b>FLOW</b><br>
-채팅방 입장에서 텍스트, 이미지 전송까지
 <div>
-<img width="50%" alt="haoaoao" src="https://github.com/HyeyonJ/room-of-GUZZI/assets/113879120/9aa45737-fd69-4818-b032-f9d04845a522">
+<img width="485" alt="스크린샷 2023-11-16 173007" src="https://github.com/HyeyonJ/IT-Da-Shopping/assets/113879120/fd153b94-ce19-4196-a144-5e5150a7fb67">
 </div>
 
 <br>
