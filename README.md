@@ -25,8 +25,8 @@
 ### 프로젝트 설명
 <blockquote>
 최근 부업으로 스마트 스토어 판매가 떠오르고 있습니다. <br>
-그러나 사람들의 수요를 파악하기 어렵습니다. <br>
-이에 자유롭게 원하는 상품을 올려 투표할 수 있는 공간을 만들어보았습니다.
+그러나 어떤 상품을 팔아야 할지, 사람들의 수요를 파악하기가 어려워 고민 중인 초보 판매자를 위한 고민으로 시작했습니다. <br>
+이에 자유롭게 원하는 상품을 제안하고 투표를 통해 수요를 파악할 수 있는 공간을 만들어보았습니다. 
 </blockquote>
 
 ### 프로젝트 링크
@@ -41,6 +41,8 @@
 <br>
 
 ## `2. 기술 스택`
+<h3>Environment</h3>
+
 <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"><br>
 <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
 <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
