@@ -52,15 +52,9 @@
 ## `3. 설계 및 아키텍처`
 
 <div>
-<img width="485" alt="스크린샷 2023-11-16 173007" src="https://github.com/HyeyonJ/IT-Da-Shopping/assets/113879120/fd153b94-ce19-4196-a144-5e5150a7fb67">
+<img width="100%" alt="스크린샷 2023-11-16 173007" src="https://github.com/HyeyonJ/IT-Da-Shopping/assets/113879120/fd153b94-ce19-4196-a144-5e5150a7fb67">
 </div>
 
-<br>
-
-### ⚙️ 3-Tier Architecture
-
-<img width="70%" alt="haoaoao" src="https://github.com/HyeyonJ/room-of-GUZZI/assets/113879120/f449399b-c070-4819-b9e6-bc8dcc4ef1cc">
-</br> Client : REACT </br> Server : Aws App Runner(Express) </br> Database : PlanetScale(MySQL) </br>
 
 <br>
 
