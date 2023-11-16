@@ -42,7 +42,8 @@
 
 ## `2. 기술 스택`
 
-||
+|![gkgkgkgkgkg](https://github.com/HyeyonJ/IT-Da-Shopping/assets/113879120/7c3001bb-e2a5-41b6-87ff-73cc84968765)|
+|react.ts|
 <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"><br>
 <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
 <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
