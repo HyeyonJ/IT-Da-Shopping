@@ -42,7 +42,8 @@
 
 ## `2. 기술 스택`
 
-<img width="323" alt="스크린샷 2023-11-16 172640" src="https://github.com/HyeyonJ/IT-Da-Shopping/assets/113879120/3f8400e2-630e-405d-82f3-81ba72b81f42">
+<img width="100%" alt="스크린샷 2023-11-16 172640" src="https://github.com/HyeyonJ/IT-Da-Shopping/assets/113879120/3f8400e2-630e-405d-82f3-81ba72b81f42">
+
 <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"><br>
 <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
 <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
