@@ -26,17 +26,15 @@
 ## `1. 프로젝트에 대하여`
 ### 프로젝트 설명
 <blockquote>
-요즘은 물가 상승과 금리 인상으로 인해 절약이 중요한 주제로 떠오르고 있습니다. <br>
-그러나 현대 사회에서는 편리한 배달음식과 인터넷 쇼핑 등이 절약을 어렵게 합니다. <br>
-이에 소비에만 의존하지 않고, 스스로를 명품으로 느낄 수 있는 방법을 찾고자 합니다.<br>
-이를 위해 함께 노력하고 독려하는 채팅방을 만들어보았습니다.
+최근 스마트 스토어 판매가 떠오르고 있습니다. <br>
+그러나 사람들의 수요를 파악하기 어렵습니다. <br>
+이에 자유롭게 원하는 상품을 올려 투표할 수 있는 공간을 만들어보았습니다.
 </blockquote>
 
 ### 프로젝트 링크
 <blockquote>
   
-최종 배포 링크 : [GUZZI-ROOM](https://all-chat.netlify.app/guzzi) <br>
-백엔드 Repo 링크 : https://github.com/mingle-mongle/guzzi
+최종 배포 링크 : https://d1ga7lc9txqjlc.cloudfront.net/
 
 </blockquote>
 <br>
