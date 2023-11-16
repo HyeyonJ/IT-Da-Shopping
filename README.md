@@ -51,6 +51,8 @@
 
 ## `3. 설계 및 아키텍처`
 
+### ⚙️ Architecture
+
 <div>
 <img width="100%" alt="스크린샷 2023-11-16 173007" src="https://github.com/HyeyonJ/IT-Da-Shopping/assets/113879120/fd153b94-ce19-4196-a144-5e5150a7fb67">
 </div>
