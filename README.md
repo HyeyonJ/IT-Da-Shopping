@@ -1,10 +1,10 @@
-<img width="100%" alt="chatting" src="https://github.com/HyeyonJ/IT-Da-Shopping/assets/113879120/526da0ec-38d0-4f1b-a954-d41142077531.gif">
-![IT-Da shop](https://github.com/HyeyonJ/IT-Da-Shopping/assets/113879120/526da0ec-38d0-4f1b-a954-d41142077531)
+<img width="100%" alt="chatting" src="https://github.com/HyeyonJ/IT-Da-Shopping/assets/113879120/ebf0c8b0-99ad-463b-a06b-f611d176524c.gif">
+
 <div align="center">
   
-## GUZZI ROOM
-물가 상승으로 인해 소비를 절약하려 했지만 혼자서는 어려움을 겪으셨나요?<br>
-"GUZZI ROOM(거지방)"은 소비 절약을 추구하는 개개인들을 위해 채팅 환경을 제공하는 서비스입니다.<br><br>
+## IT-DA shop
+네이버 스마트 스토어에 잘팔리는 상품을 알아보려 했지만 어려움을 겪으셨나요?<br>
+"IT-DA shop(잇다샵)"은 공동구매 수요 조사 품목을 제공하는 서비스입니다.<br><br>
 
 </div>
 
