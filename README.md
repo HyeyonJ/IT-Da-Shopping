@@ -15,7 +15,7 @@
 1. [프로젝트에 대하여](#1-프로젝트에-대하여)
 2. [기술 스택](#2-기술-스택)
 3. [설계 및 아키텍처](#3-설계-및-아키텍처)
-4. [UI/UX에 관한 고민](#4-UIUX에-관한-고민)
+4. [테스트](#4-테스트)
 5. [최적화를 위한 고민](#5-최적화를-위한-고민)
 6. [Reference](#6-Reference)
 
@@ -104,7 +104,7 @@
 <p align="right"><a href="#목차">⬆ 목차로 돌아가기</a></p>
 <br>
   
-## 4. `UI/UX에 관한 고민`
+## 4. `테스트`
 
 ### 💡 반응형 웹을 위한 Grid
 
@@ -126,62 +126,6 @@
 </Grid>
 <Grid xs={12} md={12} lg={3}>
 </Grid>
-```
-
-
-<br>
-
-### 💡 SEND 버튼 활성화, 비활성화
-
-<img width="100%" src="https://github.com/HyeyonJ/room-of-GUZZI/assets/113879120/08a7989c-e6b8-4b16-9bed-915cd4c61e13.png"/>
- 
-- DB content 칼럼에 Text 메세지인지 Image 메세지인지 구분하여 저장하도록 하였습니다. 빈 값이 들어가는 경우 에러가 발생하여 어떠한 값도 입력되지 않았을 경우 SEND 버튼을 비활성화 해두었습니다.
-- 또한 Text 메세지인지 Image 메세지 두 개의 항목이 동시에 저장되는 상황이 발생하였습니다.
-  - 따라서 Text 메세지 POST 시 이미지 전송 버튼이 45도 돌아가며, 비활성화 되도록 하였습니다.
-  - Image 메세지 POST 시 전송할 이미지를 선택하면 미리보기가 가능하고, 텍스트 입력 창이 비활성화 되도록 하였습니다.
-
-<br>
-
-### 💡 메세지 좌, 우 정렬
-
-<img width="100%" src="https://github.com/HyeyonJ/room-of-GUZZI/assets/113879120/79d958b1-976a-48ea-b62e-89e83cd1ffc2.png"/>
-
-- 나의 메세지를 오른쪽 정렬, 타인의 메세지를 왼쪽 정렬하여 구분할 수 있도록 하였습니다.
-- localStorage에 저장되어있는 IP를 기반으로 삼항연산자 조건문을 통해 구분할 수 있도록 하였습니다.
-
-```
-              {data &&
-                data.map((item) => {
-                  const isMyMessage = item.user.ip === ipAddress; // 내 IP인지 여부
-                  const alignment = isMyMessage ? "flex-end" : "flex-start";
-
-                  return (
-                    <Box display="flex" flexDirection="column" p={1}>
-                      <Box>
-                        {isMyMessage === false ? (
-                          <img
-                            src="coin.png"
-                            alt="프로필"
-                            width="40"
-                            height="40"
-                            style={{ marginRight: "10px" }}
-                          />
-                        ) : null}
-                        <Typography>
-                          {item.content}
-                          {item.image.includes("data:image") ? (
-                            <img
-                              src={item.image}
-                              width="150"
-                              height="150"
-                              alt="map안에서 채팅"
-                            />
-                          ) : null}
-                        </Typography>
-                      </Box>
-                    </Box>
-                  );
-                })}
 ```
 
 <br>
