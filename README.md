@@ -106,27 +106,9 @@
   
 ## 4. `최적화를 위한 고민`
 
-### 💡 반응형 웹을 위한 Grid
+### 💡 react query를 선택한 이유
 
-<img width="100%" src="https://github.com/HyeyonJ/room-of-GUZZI/assets/113879120/2e8ff736-dcb9-4aee-909e-6932af0722c5"/>
-<img width="100%" src="https://github.com/HyeyonJ/room-of-GUZZI/assets/113879120/44d7a625-565b-426c-8700-3f58eb9203f5"/>
 
-- [MUI](https://mui.com/)를 활용하여 Grid를 구현했습니다.
-  - Grid 컴포넌트의 spacing과 breakpoints 속성 sx, md, lg를 사용했습니다.
-  - sx: sx 속성은 Grid 컴포넌트의 스타일을 직접 설정할 때 사용됩니다. 이 속성을 사용하여 커스텀 스타일을 적용할 수 있습니다.
-  - md와 lg: md와 lg는 미디어 쿼리 브레이크포인트를 나타내며, Grid 컴포넌트 내에서 아이템의 가로 너비를 지정할 때 사용됩니다.
-    - xs: Extra Small 화면 크기
-    - sm: Small 화면 크기
-    - md: Medium 화면 크기
-    - lg: Large 화면 크기
-```
-<Grid xs={12} md={12} lg={3}>
-</Grid>
-<Grid xs={12} md={12} lg={6}>
-</Grid>
-<Grid xs={12} md={12} lg={3}>
-</Grid>
-```
 
 <br>
 
