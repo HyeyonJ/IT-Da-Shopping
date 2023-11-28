@@ -116,7 +116,17 @@
 - 비용의 관점에서 백엔드로 가는 Call 수 절감이 중요하다고 생각했기 때문에 reactquery를 선택했습니다.
 - react query 선택 후 동일한 데이터 호출 시 10번 중 9번은 API를 직접 부르지 않아 90% Call 수 절감을 했습니다.
 
-- 
+<img width="439" alt="스크린샷 2023-11-28 194118" src="https://github.com/HyeyonJ/IT-Da-Shopping/assets/113879120/792e91df-e4a9-438d-98da-9a531f4aa1b1">
+
+- 좋아요 버튼을 눌렀을 시 react query mutation으로 데이터가 PUT 되지만, 업데이트 된 데이터가 UI에 보이지 않아 업데이트 된 데이터를 화면에 보여주기 위해서 또 다시 react query로 API를 요청해야했습니다.
+- react query로 GET한 데이터를 useState로 배열에 저장한 후, UI에 보여주어 DB로 가는 call 수 2번에서 1번으로 50% 절감할 수 있었습니다.
+- 현재는 redux로 처리하여 복잡한 로직을 줄일 수 있었습니다.
+
+
+
+
+- 비용의 관점에서 DB로 가는 Call 수 절감이 중요하다고 생각했기 때문에 redux를 선택했습니다.
+- redux 선택 후 메인 화면에서 상세페이지 접속 시 Call 수 2번에서 1번 요청으로 50%를 절감했습니다.
 
 
 
