@@ -111,7 +111,7 @@
 
 ### 💡 react query를 선택한 이유
 
-<img width="661" alt="스크린샷 2023-11-28 193504" src="https://github.com/HyeyonJ/IT-Da-Shopping/assets/113879120/bc082c35-f405-4ec3-89e8-12cec3a5fad7">
+<img width="100%" alt="스크린샷 2023-11-28 193504" src="https://github.com/HyeyonJ/IT-Da-Shopping/assets/113879120/bc082c35-f405-4ec3-89e8-12cec3a5fad7">
 
 
 
