@@ -135,45 +135,11 @@
 
 ## 5. `테스트`
 
-### 💡 TTD
+### 💡 TDD
 
 <img width="100%" alt="스크린샷 2023-11-28 184955" src="https://github.com/HyeyonJ/IT-Da-Shopping/assets/113879120/be9b2820-7452-4d28-83fc-8da5ad00f4d3">
-
-<br>
-
-### 💡 Image POST 처리
-
-```
-  const handleImageChange = async (e) => {
-    const file = e.target.files[0];
-
-    const options = {
-      maxSizeMB: file.size,
-      fileType: file.type,
-      initialQuality: 0.5,
-      alwaysKeepResolution: true
-    };
-
-    const compressedImage = await imageCompression(file, options);
-    const data = new FileReader();
-    data.readAsDataURL(compressedImage);
-    data.addEventListener("load", () => {
-      const compressedSize = compressedImage.size;
-      if (compressedSize < 50 * 1024) {
-        setImgBase64(data.result);
-      } else {
-        setOpen(true);
-        setSnackbar({
-          severity: "error",
-          message: "용량이 너무 큽니다. 50kb로 줄여주세요."
-        });
-      }
-    });
-  };
-```
-- image는 base64 문자열로 저장하였습니다.
-- 이미지 크기가 큰 경우 에러가 발생하여 50 * 1024 이하로 이미지 크기를 축소한 뒤 저장할 수 있도록 만들었습니다.
-- 이미지 크기를 축소한 뒤에도 50 * 1024 보다 크기가 큰 경우 에러메세지를 띄웁니다.
+- regex로 유효성 검사를 만들었습니다.
+- 논리 흐름의 오류는 없는지 TDD를 작성하여 테스트를 완료했습니다.
 
 <br>
 
@@ -182,9 +148,9 @@
 
 ## 6. `Reference`
 
-- https://ko.legacy.reactjs.org/
-- https://www.youtube.com/watch?v=ccwPs2hmo7w&t=466s
-- https://www.youtube.com/watch?v=VxqZrL4FLz8&t=50s
-- https://www.inflearn.com/course/lecture?courseSlug=%EA%B0%9C%EB%B0%9C-%EC%B4%88%EB%B3%B4-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EB%A1%9C%EB%93%9C%EB%A7%B5-%EB%8B%A4%EC%9E%87%EC%86%8C&unitId=187133
-- https://acdongpgm.tistory.com/159
-- https://webclub.tistory.com/71
+- https://ko.legacy.reactjs.org/docs/getting-started.html
+- https://www.typescriptlang.org/ko/docs/handbook/2/basic-types.html
+- https://tanstack.com/query/latest/docs/react/overview
+- https://redux.js.org/introduction/getting-started
+- https://tailwindcss.com/
+- https://mui.com/
