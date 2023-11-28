@@ -135,29 +135,9 @@
 
 ## 5. `테스트`
 
-### 💡 Fetch와 Clean Up
+### 💡 TTD
 
-```
-  React.useEffect(() => {
-    const timeout = setInterval(async () => {
-      const res = await fetch(`${SERVER}/lists?page=1`, {
-        method: "GET",
-        headers: {
-          "Cache-Control": "no-cache"
-        }
-      });
-      if (res.ok) {
-        const json = await res.json();
-        setData(json.reverse());
-        console.log(json);
-      }
-    }, 3000);
-    return () => clearInterval(timeout);
-  }, []);
-```
-
-- 비동기로 움직이는 uesEffect에 delay를 넣어 cleanup을 하였습니다.
-- rateLimit에 대한 고민으로 부터 시작했습니다.
+<img width="100%" alt="스크린샷 2023-11-28 184955" src="https://github.com/HyeyonJ/IT-Da-Shopping/assets/113879120/be9b2820-7452-4d28-83fc-8da5ad00f4d3">
 
 <br>
 
