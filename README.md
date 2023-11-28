@@ -122,8 +122,7 @@
 - react query로 GET한 데이터를 useState로 배열에 저장한 후, UI에 보여주어 DB로 가는 call 수 2번에서 1번으로 50% 절감할 수 있었습니다.
 - 현재는 redux로 처리하여 복잡한 로직을 줄일 수 있었습니다.
 
-
-
+<img width="659" alt="스크린샷 2023-11-28 194421" src="https://github.com/HyeyonJ/IT-Da-Shopping/assets/113879120/95d09c67-1af8-42fb-b0ca-47551a3c0f26">
 
 - 비용의 관점에서 DB로 가는 Call 수 절감이 중요하다고 생각했기 때문에 redux를 선택했습니다.
 - redux 선택 후 메인 화면에서 상세페이지 접속 시 Call 수 2번에서 1번 요청으로 50%를 절감했습니다.
