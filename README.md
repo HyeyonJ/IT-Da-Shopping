@@ -76,9 +76,9 @@
 
 #### 🔹 IP 주소 요청
 
-<img width="100%" src="https://github.com/HyeyonJ/room-of-GUZZI/assets/113879120/5e93786b-0c63-4a59-ac0f-51bd93febd6a.png">
+<img width="100%" alt="스크린샷 2023-11-28 171208" src="https://github.com/HyeyonJ/IT-Da-Shopping/assets/113879120/1f45b12a-870f-4c93-9890-6242ceb0b696">
 
- - 해당 채팅방의 접근성을 높이기 위해 회원가입 후 로그인 입장이 아닌, IP 기반으로 사용자를 구분할 수 있도록 만들었습니다.
+ - 해당 쇼핑몰의 접근성을 높이기 위해 회원가입 후 로그인 입장이 아닌, IP 기반으로 사용자를 구분할 수 있도록 만들었습니다.
 <br>
 
 ### ⚙️ POST
