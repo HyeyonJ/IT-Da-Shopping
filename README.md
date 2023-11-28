@@ -83,7 +83,7 @@
 
 #### 🔹상품 상세 페이지 요청
 
-<img width="429" alt="스크린샷 2023-11-28 181323" src="https://github.com/HyeyonJ/IT-Da-Shopping/assets/113879120/6cfc211c-b137-4f80-abb2-66f655c70a4d">
+<img width="100%" alt="스크린샷 2023-11-28 181323" src="https://github.com/HyeyonJ/IT-Da-Shopping/assets/113879120/6cfc211c-b137-4f80-abb2-66f655c70a4d">
 
 - 상품의 상세 페이지를 볼 수 있습니다.
 - 해당 제품을 자신이 작성했다면, 수정 버튼을 눌러 상품을 수정할 수 있습니다.
@@ -94,7 +94,7 @@
 
 #### 🔹프로젝트 만들기
 
-<img width="407" alt="스크린샷 2023-11-28 174253" src="https://github.com/HyeyonJ/IT-Da-Shopping/assets/113879120/2e8f4b9a-c7e5-48ea-a867-f7e3f3c24711">
+<img width="100%" alt="스크린샷 2023-11-28 174253" src="https://github.com/HyeyonJ/IT-Da-Shopping/assets/113879120/2e8f4b9a-c7e5-48ea-a867-f7e3f3c24711">
 
  - TextField에 값이 없을 시 regex로 유효성 검사를 시행하도록 만들었습니다.
  - 제출하기 버튼을 누를 시 Home으로 가고, 리스트를 추가하도록 만들었습니다.
