@@ -32,7 +32,7 @@
 ### 프로젝트 링크
 <blockquote>
   
-최종 배포 링크 : https://d1ga7lc9txqjlc.cloudfront.net/
+최종 배포 링크 : https://d1tixhtkjf74lp.cloudfront.net/
 
 </blockquote>
 <br>
@@ -69,9 +69,10 @@
 
 #### 🔹 상품 목록 리스트 요청
 
-<img width="390" alt="스크린샷 2023-11-28 170311" src="https://github.com/HyeyonJ/IT-Da-Shopping/assets/113879120/a84f2cf1-f5b6-423c-aa32-5e47fc5099fd">
+<img width="100%" alt="스크린샷 2023-11-28 170311" src="https://github.com/HyeyonJ/IT-Da-Shopping/assets/113879120/a84f2cf1-f5b6-423c-aa32-5e47fc5099fd">
 
  - 페이지가 정상적으로 요청되었을 시 react query로 상품 리스트를 불러옵니다.
+ - Redux에 상품 리스트를 저장합니다.
 
 #### 🔹 IP 주소 요청
 
