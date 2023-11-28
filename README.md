@@ -79,23 +79,24 @@
 <img width="100%" alt="스크린샷 2023-11-28 171208" src="https://github.com/HyeyonJ/IT-Da-Shopping/assets/113879120/1f45b12a-870f-4c93-9890-6242ceb0b696">
 
  - 해당 쇼핑몰의 접근성을 높이기 위해 회원가입 후 로그인 입장이 아닌, IP 기반으로 사용자를 구분할 수 있도록 만들었습니다.
-<br>
 
-### ⚙️ POST
 
-#### 🔹텍스트 메세지 POST
-
-<img width="100%" src="https://github.com/HyeyonJ/room-of-GUZZI/assets/113879120/745479ac-3192-4eef-9861-827cd0b655ba.png">
-
- - TextField에 값이 없을 시 SEND 버튼을 비활성화 합니다. 이는 NULL 값이 POST 되지 않기 위함입니다.
- - TextField에 텍스트 입력 시 image 버튼은 비활성화 되며, 이를 시각적으로 나타내기 위해 45도 돌아가도록 만들었습니다.
-
-#### 🔹이미지 메세지 POST
+#### 🔹
 
 <img width="100%" alt="archtectuer" src="https://github.com/HyeyonJ/room-of-GUZZI/assets/113879120/4caab2c5-2539-46b0-b616-6ba37849221c.png">
 
 - Input에 이미지 값이 없을 시 SEND 버튼을 비활성화 합니다. 이는 NULL 값이 POST 되지 않기 위함입니다.
 - Input에 이미지 값 입력 시 TextField는 disabled로 비활성화 하였습니다.
+<br>
+
+### ⚙️ POST
+
+#### 🔹프로젝트 만들기
+
+<img width="407" alt="스크린샷 2023-11-28 174253" src="https://github.com/HyeyonJ/IT-Da-Shopping/assets/113879120/2e8f4b9a-c7e5-48ea-a867-f7e3f3c24711">
+
+ - TextField에 값이 없을 시 regex로 유효성 검사를 시행하도록 만들었습니다.
+ - 제출하기 버튼을 누를 시 Home으로 가고, 리스트를 추가하도록 만들었습니다.
 
 <br>
 
