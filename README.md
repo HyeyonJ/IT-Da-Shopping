@@ -113,7 +113,10 @@
 
 <img width="100%" alt="스크린샷 2023-11-28 193504" src="https://github.com/HyeyonJ/IT-Da-Shopping/assets/113879120/bc082c35-f405-4ec3-89e8-12cec3a5fad7">
 
+- 비용의 관점에서 백엔드로 가는 Call 수 절감이 중요하다고 생각했기 때문에 reactquery를 선택했습니다.
+- react query 선택 후 동일한 데이터 호출 시 10번 중 9번은 API를 직접 부르지 않아 90% Call 수 절감을 했습니다.
 
+- 
 
 
 
