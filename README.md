@@ -67,12 +67,11 @@
 
 ### ⚙️ GET
 
-#### 🔹 채팅 리스트 페이지별 요청
+#### 🔹 상품 목록 리스트 요청
 
-<img width="100%" src="https://github.com/HyeyonJ/room-of-GUZZI/assets/113879120/f467001d-9d8f-4553-9186-8dc2c06e333a.png">
+<img width="390" alt="스크린샷 2023-11-28 170311" src="https://github.com/HyeyonJ/IT-Da-Shopping/assets/113879120/a84f2cf1-f5b6-423c-aa32-5e47fc5099fd">
 
- - 페이지가 정상적으로 요청되었을 시 채팅 리스트를 불러옵니다.
- - 올바른 요청이 아닐 시 MUI Snackbar로 Alert를 띄웁니다.
+ - 페이지가 정상적으로 요청되었을 시 react query로 상품 리스트를 불러옵니다.
 
 #### 🔹 IP 주소 요청
 
