@@ -81,12 +81,13 @@
  - 해당 쇼핑몰의 접근성을 높이기 위해 회원가입 후 로그인 입장이 아닌, IP 기반으로 사용자를 구분할 수 있도록 만들었습니다.
 
 
-#### 🔹
+#### 🔹상품 상세 페이지 요청
 
-<img width="100%" alt="archtectuer" src="https://github.com/HyeyonJ/room-of-GUZZI/assets/113879120/4caab2c5-2539-46b0-b616-6ba37849221c.png">
+<img width="429" alt="스크린샷 2023-11-28 181323" src="https://github.com/HyeyonJ/IT-Da-Shopping/assets/113879120/6cfc211c-b137-4f80-abb2-66f655c70a4d">
 
-- Input에 이미지 값이 없을 시 SEND 버튼을 비활성화 합니다. 이는 NULL 값이 POST 되지 않기 위함입니다.
-- Input에 이미지 값 입력 시 TextField는 disabled로 비활성화 하였습니다.
+- 상품의 상세 페이지를 볼 수 있습니다.
+- 해당 제품을 자신이 작성했다면, 수정 버튼을 눌러 상품을 수정할 수 있습니다.
+- 해당 제품을 자신이 작성했다면, 삭제 버튼을 눌러 상품을 삭제할 수 있습니다.
 <br>
 
 ### ⚙️ POST
